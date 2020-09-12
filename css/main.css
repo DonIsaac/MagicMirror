@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 60px;
+  /* padding: 60px; */
   position: absolute;
   height: calc(100% - 120px);
   width: calc(100% - 120px);
@@ -51,6 +52,11 @@ body {
 .medium {
   font-size: 30px;
   line-height: 35px;
+}
+
+.medium-large {
+  font-size: 45px;
+  line-height: 45px;
 }
 
 .large {
