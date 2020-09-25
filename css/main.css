@@ -10,6 +10,7 @@ html {
 
 body {
   margin: 60px;
+  /* padding: 60px; */
   position: absolute;
   height: calc(100% - 120px);
   width: calc(100% - 120px);
@@ -51,6 +52,11 @@ body {
 .medium {
   font-size: 30px;
   line-height: 35px;
+}
+
+.medium-large {
+  font-size: 45px;
+  line-height: 45px;
 }
 
 .large {
@@ -177,10 +183,6 @@ sup {
 .region.top.center,
 .region.bottom.center {
   left: 50%;
-  -moz-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -213,10 +215,6 @@ sup {
 .region.middle.center {
   width: 100%;
   text-align: center;
-  -moz-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
